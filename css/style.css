@@ -9,15 +9,15 @@ mark, rp, rt, ruby, summary, time {display:inline}
 body {background:#000;border:0;font:14px Arial, Helvetica, sans-serif;color:#808080;line-height:20px;min-width:1100px;overflow:hidden}
 .ic {border:0;float:right;background:#f9c413;color:#f00;width:50%;line-height:10px;font-size:10px;margin:-220% 0 0 0;overflow:hidden;padding:0}
 /* Global Structure ============================================================= */
-.main {	margin:0 auto;width:1300px}
+.main {	margin:0 auto;width:1300px;height: px}
 .bg_spinner {width:100px;height:13px;position:absolute;z-index:2;background:url(../images/loader1.gif) 0 0 no-repeat;top:5px;left:5px}
 .spinner {position:absolute;z-index:99;background:url(../images/loader1.gif) 50% 50% no-repeat #000;width:100%;height:100%;top:0;left:0}
-.block {height:92px}
+.block {height:20px}
 .extra {min-height:100%;height:auto !important;height:100%;margin:0 auto -92px;position:relative;left: 0; bottom: -1in}
 body, html {height:100%}
 .bg1 {background:#000;position:relative;z-index:1;height:0px}
-.box {width:100%;overflow:hidden;padding-top:20px;padding-bottom:20px;position:relative}
-.pagination {position:absolute;top:-35px;left:0px;right: 10px}
+.box {width:100%;overflow:hidden;padding-top:20px;padding-bottom:10px;position:relative}
+.pagination {position:absolute;top:-28px;left:0px;right: 10px}
 .pagination li {float:left;padding-right:4px;font-size:20px;line-height:34px}
 .pagination a {display:inline-block;width:35px;height:35px;color:#000;text-align:center;text-decoration:none;text-align:center;background:#f9c413}
 .pagination a:hover, .pagination .current a {background-position:left;color:#f9c413;background:#000}
@@ -29,8 +29,8 @@ h2 {font-size:26px;line-height:1.2em;padding:20px 0 10px 0;color:#f9c413;font-we
 p {padding-bottom:20px}
 /* ============================= header ====================== */
 header {width:200px;float:left}
-#logo {display:block;text-indent:-9999px;background:url(../images/logo2.png) 0 0 no-repeat;width:500px;height:273px;position:relative;right: 18px}
-#menu {padding-top:50px}
+#logo {display:block;text-indent:-9999px;background:url(../images/logo2.png) 0 0 no-repeat;width:500px;height:273px;position:relative;right: 18px;top: -.5in}
+#menu {padding-top:px}
 #menu > li {width:100%;overflow:hidden;padding-bottom:4px}
 #menu > li > a {display:inline-block;font-size:26px;line-height:54px;height:56px;color:#f9c413;background:#000;text-decoration:none;position:relative;letter-spacing:0px;cursor:pointer}
 #menu > li > a span {display:block;background:#f9c413;position:absolute;width:100%;height:100%;top:0;left:0}
@@ -67,7 +67,7 @@ header {width:200px;float:left}
 .list2 a {color:#fff}
 .list2 a:hover {color:#808080}
 .tabs .nav {padding-top:5px}
-.tabs .nav li {line-height:28px;padding-bottom:2px}
+.tabs .nav li {line-height:28px;padding-bottom:12px}
 .tabs .nav li a {position:relative;font-size:16px;letter-spacing:-1px;text-transform:uppercase;text-decoration:none;height:28px;line-height:26px;padding:0 50px 0 px;color:#f9c413;background:#000;display:inline-block}
 .tabs .nav li a span {display:block;position:absolute;top:0;left:0;width:110%;height:100%;background:#f9c413}
 .tabs .nav li a strong {font-weight:400}
@@ -89,14 +89,14 @@ div.light_square .pp_previous:hover {background-position:bottom}
 .link1 {color:#fff;text-decoration:none}
 .link1:hover {text-decoration:underline}
 /* ============================= footer ====================== */
-footer {font-size:16px;text-transform:uppercase;font-weight:400;line-height:100px;position:relative;top: 1in;padding:24px 0 0 0;letter-spacing:-1px}
+footer {font-size:16px;text-transform:uppercase;font-weight:400;line-height:100px;position:relative;top:0in;padding:20px 0 0 0;letter-spacing:-1px}
 footer a {color:#fff;text-decoration:none}
 footer a:hover {color:#808080}
-.col_1 {width:360px;position:relative;float:left}
-.col_2 {width:740px;position:relative;right: -7in; float:left;text-align:center}
+.col_1 {width:360px;position:relative;float:left;top: 80px}
+.col_2 {width:740px;position:relative;right: -7in; float:left;top: 80px;text-align:center}
 #footer_logo {float:left;background:url(../images/footer_img1.jpg) 0 0 no-repeat;width:111px;height:100px;text-indent:-9999px;margin-right:22px}
 /* ============================= forms ============================= */
-#ContactForm {margin-top:0px}
+#ContactForm {margin-top:10px}
 #ContactForm .wrapper {overflow:inherit;min-height:40px}
 #ContactForm span {float:left;width:75px;color:#fff;padding-top:2px}
 #ContactForm a {margin-right:10px;float:left;margin-top:23px;width:112px;text-align:center}
